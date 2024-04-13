@@ -1,7 +1,9 @@
 import { useState } from 'react'
 
 function App() {
-  return 'bonjour les gens'
+  return (
+    < p > TEST SASS EN ROUGE </p >
+  )
 }
 
 export default App
