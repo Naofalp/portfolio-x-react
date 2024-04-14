@@ -7,7 +7,7 @@ export default function About() {
             <p>
                 Je suis Nao, passionné par la technologie et l'apprentissage continue.<br/>
                 Diplomé dans plusieurs domaines et ayant travaillé dans le monde entier, j'ai
-                une solide expérience dans le e-commerce. Gouvernement, événementiel, médical...
+                une solide expérience autour du e-commerce. Gouvernement, événementiel, médical...
                 j'ai pu m'aventurer à travers plusieurs secteurs et en tirer bénéfice dans ma vision 
                 des choses.
             </p>
