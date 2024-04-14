@@ -12,6 +12,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-inline: 50px;
+  padding-block: 30px;
 }
 
 .headerBand figure {
@@ -22,4 +24,17 @@ h2 {
   font-size: 26px;
   font-weight: 500;
   margin: 0;
+  color: #2105f7;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.nav-header_link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 15px;
 }
