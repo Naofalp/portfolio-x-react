@@ -1,8 +1,16 @@
-# React + Vite
+idée : 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+easy
+- Navlink ou Balise pour le nav ? 
+- creer des pages pour chaque card
 
-Currently, two official plugins are available:
+moins easy
+- créer un bouton en bas à droite qui suit le defilement et qui est attaché à la balise contact
+- barre de defilement personnalisé
+- carroussel automatique des differentes techno : HTML, REACT, Ads, insta etc .
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A faire: 
+
+Card comme startup https://mattfarley.ca/ OU https://www.sucoweb.com/ et les logo du site.
+
+
