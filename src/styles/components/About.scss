@@ -1,0 +1,16 @@
+.about-container {
+    background-color: $secondary-color;
+    padding: 100px 300px;
+    padding-bottom: 220px;
+    text-align: center;
+
+    h2{
+        color: $primary-color;
+    }
+
+    p{
+        color: $primary-color;
+        line-height: 2;
+        font-size: $basic-fontsize;
+    }
+}
