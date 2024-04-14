@@ -1,8 +1,12 @@
+import Nav from './Nav';
+
 export default function Header() {
     return <>
         <header className='headerBand'>
             <figure>
-                <img src={logoKasa} alt="logo de l'agence immobilière Kasa" />
+                <p>
+                    NPromotion
+                </p>
             </figure>
             <Nav />
         </header>

@@ -1,0 +1,17 @@
+.headerBand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 50px;
+  padding-block: 30px;
+}
+
+.headerBand figure {
+  margin: 0;
+}
+
+.headerBand figure p {
+  font-size: 26px;
+  font-weight: 500;
+  margin: 0;
+}

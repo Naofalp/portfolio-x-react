@@ -1,0 +1,11 @@
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.nav-header_link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 15px;
+}
