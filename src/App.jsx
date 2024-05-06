@@ -12,6 +12,7 @@ function App() {
       <Banner />
       <About />
       <Service />
+      <Tools />
     </main>
   </>
 }
