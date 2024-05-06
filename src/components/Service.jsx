@@ -15,6 +15,8 @@ export default function Service() {
                 imgAlt="Vector balise de code"
                 title="Web marketing"
                 content="Your website should look good and behave correctly from any device, 
+                of any size, every single time. We can help!Your website should look good and behave correctly from any device, 
+                of any size, every single time. We can help!Your website should look good and behave correctly from any device, 
                 of any size, every single time. We can help!" />
                 <CardService
                 minia={codeImg}
