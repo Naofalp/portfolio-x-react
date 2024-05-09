@@ -1,7 +1,7 @@
 export default function Tools() {
     return <>
         <section className="Tools_container">
-            <h2> Mes outils </h2>
+            <h2> Mes languages </h2>
             <div class="slider">
                 <div class="slide-track">
                     <div class="slide">
@@ -48,6 +48,7 @@ export default function Tools() {
                     </div>
                 </div>
             </div>
+            <p> Accompagné de mes outils favoris Photoshop, Figma, GitHub et VisualStudio Code. </p>
         </section>
     </>
 
