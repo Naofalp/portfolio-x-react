@@ -32,7 +32,7 @@
 // Styling
 .slider {
     background: white;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+    box-shadow: 0 10px 20px -15px rgba(33, 5, 247, .9);
     height: 100px;
     margin: auto;
     overflow: hidden;
@@ -65,6 +65,8 @@
         display: flex;
         width: calc(250px * 14);
     }
+
+/* augmenter le temps d'animation pour la version responsive ? */
 
     .slide {
         height: 100px;
