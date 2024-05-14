@@ -24,6 +24,8 @@ h1 {
 h2 {
   font-size: 32px;
   font-weight: 600;
+  text-align: center;
+  margin-top: 0;
 }
 
 h3 {
@@ -33,6 +35,7 @@ h3 {
   text-align: center;
 }
 
+/* Vitesse du defilement slider*/
 .headerBand {
   display: flex;
   align-items: center;
@@ -110,7 +113,6 @@ h3 {
   grid-column-gap: 30px;
   justify-content: center;
   margin-top: -140px;
-  padding-bottom: 20px;
   /* A partir de tablette enlever le gap et reduire le min max 307px pour que les columns se serrent. des qu'il
   y a plus de places elle passent de 3 à 1 par colonne*/
 }
@@ -140,4 +142,76 @@ h3 {
 .card_minia {
   font-size: 2em;
   width: 40px;
+}
+
+.Tools_container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  /* Reduire le gap pour la version RESPONSIVE*/
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-2000px);
+  }
+}
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -15px rgba(33, 5, 247, 0.9);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 95%;
+}
+.slider::before, .slider::after {
+  background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 10s linear infinite;
+  display: flex;
+  width: 3500px;
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide .petitLogo {
+  height: 100%;
+}
+
+.slide img {
+  height: 90%;
+  width: auto;
+  align-content: center;
+}
+
+.Tools_container p {
+  text-align: center;
 }
