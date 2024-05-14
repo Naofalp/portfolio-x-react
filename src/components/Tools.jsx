@@ -15,52 +15,84 @@ export default function Tools() {
             <div class="slider">
                 <div class="slide-track">
                     <div class="slide">
-                        <img src={flag} 
-                        height="100" 
-                        width="250" 
-                        alt="" />
+                        <img
+                            src={flag}
+                            alt="" />
                     </div>
                     <div class="slide">
-                        <img src={html} 
-                        height="100" 
-                        width="250" 
-                        alt="" />
+                        <img
+                            className="petitLogo"
+                            src={html}
+                            alt="" 
+                            />
                     </div>
                     <div class="slide">
-                        <img src={css} 
-                        height="100" 
-                        width="250" 
-                        alt="" />
+                        <img
+                            src={css}
+                            alt="" />
                     </div>
                     <div class="slide">
-                        <img src={js} 
-                        height="100" 
-                        width="250" 
-                        alt="" />
+                        <img
+                            src={js}
+                            alt="" />
                     </div>
                     <div class="slide">
-                        <img src={react} 
-                        height="100" 
-                        width="250" 
-                        alt="" />
+                        <img
+                            className="petitLogo"
+                            src={react}
+                            alt="" 
+                            />
                     </div>
                     <div class="slide">
-                        <img src={sass} 
-                        height="100" 
-                        width="250" 
-                        alt="" />
+                        <img
+                            src={sass}
+                            alt="" />
                     </div>
                     <div class="slide">
-                        <img src={shopify} 
-                        height="100" 
-                        width="250" 
-                        alt="" />
+                        <img
+                            src={shopify}
+                            alt="" />
                     </div>
                     <div class="slide">
-                        <img src={wordpress} 
-                        height="100" 
-                        width="250" 
-                        alt="" />
+                        <img
+                            className="petitLogo"
+                            src={wordpress}
+                            alt="" 
+                            />
+                    </div>
+                    <div class="slide">
+                        <img
+                            src={flag}
+                            alt="" />
+                    </div>
+                    <div class="slide">
+                        <img
+                            className="petitLogo"
+                            src={html}
+                            alt="" 
+                            />
+                    </div>
+                    <div class="slide">
+                        <img
+                            src={css}
+                            alt="" />
+                    </div>
+                    <div class="slide">
+                        <img
+                            src={js}
+                            alt="" />
+                    </div>
+                    <div class="slide">
+                        <img
+                            className="petitLogo"
+                            src={react}
+                            alt="" 
+                            />
+                    </div>
+                    <div class="slide">
+                        <img
+                            src={sass}
+                            alt="" />
                     </div>
                 </div>
             </div>
