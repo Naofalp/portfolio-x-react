@@ -3,7 +3,7 @@ import codeImg from "../assets/code-solid.svg";
 
 export default function Service() {
     return <>
-        <section className="card_container">
+        <section id="Competences" className="card_container">
             <CardService
                 minia={codeImg}
                 imgAlt="Vector balise de code"
