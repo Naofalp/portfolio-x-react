@@ -1,27 +1,19 @@
-.Tools_container {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
 @keyframes scroll {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-1750px);
+    transform: translateX(-2000px);
   }
 }
 .slider {
   background: white;
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 10px 20px -15px rgba(33, 5, 247, 0.9);
   height: 100px;
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: 960px;
+  width: 95%;
 }
 .slider::before, .slider::after {
   background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
@@ -41,11 +33,24 @@
   top: 0;
 }
 .slider .slide-track {
-  animation: scroll 30s linear infinite;
+  animation: scroll 15s linear infinite;
   display: flex;
   width: 3500px;
 }
 .slider .slide {
   height: 100px;
   width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.petitLogo {
+  height: 100%;
+}
+
+.slide img {
+  height: 90%;
+  width: auto;
+  align-content: center;
 }

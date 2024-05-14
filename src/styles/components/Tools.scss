@@ -14,62 +14,72 @@
 }
 
 @mixin white-gradient {
-    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
 }
 
 // Animation
 @keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(calc(-250px * 7))
-    }
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 8))}
 }
 
 
 // Styling
 .slider {
-    background: white;
-    box-shadow: 0 10px 20px -15px rgba(33, 5, 247, .9);
-    height: 100px;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: 95%;
+	background: white;
+	    box-shadow: 0 10px 20px -15px rgba(33, 5, 247, .9);
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 95%;
+	
+	&::before,
+	&::after {
+		@include white-gradient;
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
 
-    &::before,
-    &::after {
-        @include white-gradient;
-        content: "";
-        height: 100px;
-        position: absolute;
-        width: 200px;
-        z-index: 2;
-    }
-
-    &::after {
-        right: 0;
-        top: 0;
-        transform: rotateZ(180deg);
-    }
-
-    &::before {
-        left: 0;
-        top: 0;
-    }
-
-    .slide-track {
-        animation: scroll $animationSpeed linear infinite;
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		width: calc(250px * 14);
+	}
+	
+	.slide {
+		height: 100px;
+		width: 250px;
         display: flex;
-        width: calc(250px * 14);
-    }
+        align-items: center;
+        justify-content: center;
+	}
+}
 
-/* augmenter le temps d'animation pour la version responsive ? */
+.slide .petitLogo {
+    height: 100%;
+}
 
-    .slide {
-        height: 100px;
-        width: 250px;
-    }
+.slide img {
+    height: 90%;
+    width: auto;
+    align-content: center;
+}
+
+.Tools_container p {
+    text-align: center;
 }
