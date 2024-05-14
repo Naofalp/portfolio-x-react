@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.cardService_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(307px, 30%));
+  width: 100%;
+  grid-column-gap: 30px;
+  justify-content: center;
+  margin-top: -140px;
+  /* A partir de tablette enlever le gap et reduire le min max 307px pour que les columns se serrent. des qu'il
+  y a plus de places elle passent de 3 à 1 par colonne*/
+}
+@media screen and (max-width: 426px) {
+  .cardService_container {
+    background-color: white;
+    grid-template-columns: auto;
+    margin-top: 20px;
+    padding: 0px;
+    grid-row-gap: 20px;
+  }
+}
+.cardService_article {
+  border-radius: 10px;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+  background-color: white;
+}
+.cardService_content {
+  margin: 0;
+  text-align: center;
+}
+.cardService_minia {
+  font-size: 2em;
+  width: 40px;
+}

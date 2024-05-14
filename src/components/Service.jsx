@@ -1,9 +1,9 @@
-import CardService from "./Card";
+import CardService from "./CardService";
 import codeImg from "../assets/code-solid.svg";
 
 export default function Service() {
     return <>
-        <section id="Competences" className="card_container">
+        <section id="Competences" className="cardService_container">
             <CardService
                 minia={codeImg}
                 imgAlt="Vector balise de code"
