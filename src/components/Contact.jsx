@@ -1,6 +1,6 @@
 export default function Contact() {
     return <>
-        <section id="contact" className="contact_container">
+        <section id="Contact" className="contact_container">
             <h2 className="contact_title">Démarrer un projet</h2>
             <p className="contact_texte">Vous êtes interessé pour travailler ensemble ?
                 Je suis toujours ouvert à de nouvelles opportunités.
