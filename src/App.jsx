@@ -6,6 +6,7 @@ import Service from './components/Service';
 import Tools from './components/Tools';
 import Works from './components/Works';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return <>
@@ -17,6 +18,7 @@ function App() {
       <Tools />
       <Works />
       <Contact/>
+      <Footer/>
     </main>
   </>
 }
