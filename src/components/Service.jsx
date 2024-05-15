@@ -8,22 +8,21 @@ export default function Service() {
                 minia={codeImg}
                 imgAlt="Vector balise de code"
                 title="Développement Frontend"
-                content="Your website should look good and behave correctly from any device, 
-                of any size, every single time. We can help!" />
-                <CardService
+                content="Votre site web reflète votre marque. Il est vecteur d'idée et plus.
+                Équipez-vous d'un site sur-mesure, agréable à regarder,
+                sur n'importe quel appareil, n'importe quand." />
+            <CardService
                 minia={codeImg}
                 imgAlt="Vector balise de code"
                 title="Web marketing"
-                content="Your website should look good and behave correctly from any device, 
-                of any size, every single time. We can help!Your website should look good and behave correctly from any device, 
-                of any size, every single time. We can help!Your website should look good and behave correctly from any device, 
-                of any size, every single time. We can help!" />
-                <CardService
+                content="Dans un monde digital en constante évolution : moteurs de recherche, réseaux, inluenceurs...
+                mettre en avant votre entreprise est essentiel pour atteindre votre cible de manière efficace." />
+            <CardService
                 minia={codeImg}
                 imgAlt="Vector balise de code"
                 title="Stratégie"
-                content="Your website should look good and behave correctly from any device, 
-                of any size, every single time. We can help!" />
+                content="L'offre et la demande vont main dans la main. Établissons un plan 
+                pour exploiter les deux afin de booster vos ventes sur le marché." />
         </section>
     </>
 }
