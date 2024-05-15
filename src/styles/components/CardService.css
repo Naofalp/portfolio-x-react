@@ -6,16 +6,23 @@
   grid-column-gap: 30px;
   justify-content: center;
   margin-top: -140px;
-  /* A partir de tablette enlever le gap et reduire le min max 307px pour que les columns se serrent. des qu'il
-  y a plus de places elle passent de 3 à 1 par colonne*/
+}
+@media screen and (max-width: 768px) {
+  .cardService_container {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* Passage à une carte par ligne sur tablette */
+    margin-top: -105px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 @media screen and (max-width: 426px) {
   .cardService_container {
-    background-color: white;
+    grid-template-columns: 1fr; /* Passage à une carte par ligne sur mobile */
     grid-template-columns: auto;
-    margin-top: 20px;
     padding: 0px;
-    grid-row-gap: 20px;
+    margin-top: -90px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 .cardService_article {

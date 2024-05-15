@@ -5,9 +5,21 @@
   flex-direction: column;
   align-items: center;
 }
+@media screen and (max-width: 707px) {
+  .Works_container {
+    background-color: #efefef;
+    padding: 80px 0px 0px 0px;
+  }
+}
 .Works_container p {
   margin: 0;
   margin-bottom: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 707px) {
+  .Works_container p {
+    padding: 0px 10px;
+  }
 }
 
 .cardPortfolio_container {
@@ -16,9 +28,25 @@
   flex-wrap: wrap;
   padding: 60px 0px;
 }
+@media screen and (max-width: 707px) {
+  .cardPortfolio_container {
+    padding: 40px 0px 0px 0px;
+  }
+}
 .cardPortfolio_article {
   width: 33.33%;
   padding: 0.75rem;
+}
+@media screen and (max-width: 769px) {
+  .cardPortfolio_article {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 707px) {
+  .cardPortfolio_article {
+    width: 100%;
+    padding: 0.75rem 0;
+  }
 }
 
 .cardPortfolio_figure {
@@ -58,6 +86,11 @@
 .cardPortfolio_figure h3 {
   margin-bottom: 10px;
   font-weight: 400;
+}
+@media screen and (max-width: 769px) {
+  .cardPortfolio_figure h3 {
+    font-size: 20px;
+  }
 }
 
 .button-55 {

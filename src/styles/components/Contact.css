@@ -13,6 +13,11 @@
   z-index: 1; /* Assure que la section contact soit au-dessus du footer */
   margin-bottom: -2em;
 }
+@media screen and (max-width: 707px) {
+  .contact_container {
+    margin-top: 100px;
+  }
+}
 .contact_title {
   margin-top: 0;
   margin-bottom: 0;

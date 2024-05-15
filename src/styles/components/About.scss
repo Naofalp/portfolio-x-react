@@ -1,16 +1,32 @@
 .about-container {
     background-color: $secondary-color;
-    padding: 100px 300px;
+    padding: 100px 250px;
     padding-bottom: 250px;
     text-align: center;
 
-    h2{
+    h2 {
         color: $primary-color;
     }
 
-    p{
+    p {
         color: $primary-color;
         line-height: 1.5;
         font-size: $basic-fontsize;
+
+        @media screen and (max-width: 426px) {
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about-container {
+        padding: 100px 20px 180px 20px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .about-container {
+        padding: 80px 20px 150px 20px;
     }
 }
