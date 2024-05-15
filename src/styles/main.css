@@ -106,7 +106,7 @@ h3 {
 }
 
 /* card_container dans la feuille Card*/
-.card_container {
+.cardService_container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(307px, 30%));
   width: 100%;
@@ -117,7 +117,7 @@ h3 {
   y a plus de places elle passent de 3 à 1 par colonne*/
 }
 @media screen and (max-width: 426px) {
-  .card_container {
+  .cardService_container {
     background-color: white;
     grid-template-columns: auto;
     margin-top: 20px;
@@ -125,7 +125,7 @@ h3 {
     grid-row-gap: 20px;
   }
 }
-.card_article {
+.cardService_article {
   border-radius: 10px;
   padding: 50px 30px;
   display: flex;
@@ -135,11 +135,11 @@ h3 {
   box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
   background-color: white;
 }
-.card_content {
+.cardService_content {
   margin: 0;
   text-align: center;
 }
-.card_minia {
+.cardService_minia {
   font-size: 2em;
   width: 40px;
 }
@@ -214,4 +214,71 @@ h3 {
 
 .Tools_container p {
   text-align: center;
+}
+
+.Works_container {
+  padding: 80px 30px 80px 30px;
+  background-color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Works_container p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.cardPortfolio_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 60px 0px;
+}
+.cardPortfolio_article {
+  width: 33.33%;
+  padding: 0.75rem;
+}
+
+.cardPortfolio_figure {
+  margin: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cardPortfolio_figure img {
+  width: 100%;
+  height: auto;
+}
+
+.cardPortfolio_figure figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cardPortfolio_figure:hover figcaption {
+  opacity: 1;
+}
+
+.cardPortfolio_figure h3 {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.cardPortfolio_figure a {
+  text-decoration: none;
+  color: white;
 }
