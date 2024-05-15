@@ -5,7 +5,7 @@ export default function Header() {
         <header className='headerBand'>
             <figure>
                 <p>
-                    NPromotion
+                    NPereira
                 </p>
             </figure>
             <Nav />

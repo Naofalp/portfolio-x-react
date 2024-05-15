@@ -5,7 +5,7 @@ export default function Footer() {
         <section className="footer_container">
             <figure>
                 <span>
-                    NPromotion
+                    NPereira
                 </span>
             </figure>
             <a href="https://github.com/Naofalp" target="_blank">
