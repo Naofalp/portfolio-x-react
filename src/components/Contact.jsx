@@ -10,7 +10,6 @@ export default function Contact() {
                 C'est parti 😁
             </button>
             </div>
-
         </section>
     </>
 }

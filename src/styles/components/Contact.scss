@@ -10,6 +10,9 @@
         color: white;
         padding: 40px 20px;
         border-radius: 12px;
+        position: relative;
+        z-index: 1; /* Assure que la section contact soit au-dessus du footer */
+        margin-bottom: -2em;
     }
 
     &_title {
@@ -62,8 +65,6 @@
     box-shadow: 0 0 5px 0 #00d7c3 inset, 0 0 10px 1px #00d7c3;
     border: 3px solid #00d7c3;
 }
-
-
 
 @media screen and (max-width: 766px) {
     .contact_container {
