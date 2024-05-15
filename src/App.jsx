@@ -5,6 +5,7 @@ import About from "./components/About";
 import Service from './components/Service';
 import Tools from './components/Tools';
 import Works from './components/Works';
+import Contact from './components/Contact';
 
 function App() {
   return <>
@@ -15,6 +16,7 @@ function App() {
       <Service />
       <Tools />
       <Works />
+      <Contact/>
     </main>
   </>
 }
