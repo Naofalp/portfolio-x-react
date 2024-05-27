@@ -12,7 +12,7 @@ export default function Footer() {
                 <img className="githubLogo_footer" src={Github} alt="GitHub logo" />
             </a>
             <p>
-                Réalisé avec React & SASS.
+                Réalisé avec React & SASS. <br/> Hébergé par Firebase.
             </p>
         </section>
     </>
