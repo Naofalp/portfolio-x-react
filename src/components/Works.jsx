@@ -26,7 +26,7 @@ export default function Works() {
                         <img src={kasa} alt="Site de location immobilière Kasa sous app REACT router" />
                         <figcaption>
                             <h3> Site de location immobilière Kasa </h3>
-                            <button className="button-55" role="button" onClick={()=>window.open('https://github.com/Naofalp/kasaREACT', '_blank', 'noopener noreferrer')}>
+                            <button className="button-55" role="button" onClick={()=>window.open('https://kasa-367cc.web.app/', '_blank', 'noopener noreferrer')}>
                                 Visiter
                             </button>
                         </figcaption>
