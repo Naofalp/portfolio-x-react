@@ -4,6 +4,7 @@ import kanban from '../assets/Projets/kanban.png';
 import booki from '../assets/Projets/Booki.png';
 import backend from '../assets/Projets/backend.png';
 import sophie from '../assets/Projets/sophie_bluel.png';
+import entretien from '../assets/Projets/entretien.jpg';
 
 export default function Works() {
     return <>
@@ -18,6 +19,17 @@ export default function Works() {
                             <h3> Site de location immobilière Kasa </h3>
                             <button className="button-55" role="button" onClick={()=>window.open('https://kasa-367cc.web.app/', '_blank', 'noopener noreferrer')}>
                                 Visiter
+                            </button>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div className="cardPortfolio_article">
+                    <figure className='cardPortfolio_figure'>
+                        <img src={entretien} alt="Entretiens intelligence artificielle" />
+                        <figcaption>
+                            <h3>🚧 Simulateur d'entretien avec l'intelligence artificielle 🚧 </h3>
+                            <button className="button-55" role="button" onClick={() => window.location.href = 'mailto:naofal.pereira@yahoo.fr'}>
+                                En savoir plus
                             </button>
                         </figcaption>
                     </figure>
