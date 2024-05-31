@@ -3,6 +3,7 @@ import kasa from '../assets/Projets/kasa.png';
 import kanban from '../assets/Projets/kanban.png';
 import booki from '../assets/Projets/Booki.png';
 import backend from '../assets/Projets/backend.png';
+import sophie from '../assets/Projets/sophie_bluel.png';
 
 export default function Works() {
     return <>
@@ -10,6 +11,17 @@ export default function Works() {
             <h2> Mes travaux </h2>
             <p> Voici mes projets aboutis. Vous voulez en voir plus ? Ceux en cours ? Discutons-en !</p>
             <div className="cardPortfolio_container">
+                <div className="cardPortfolio_article">
+                    <figure className='cardPortfolio_figure'>
+                        <img src={kasa} alt="Site de location immobilière Kasa sous app REACT router" />
+                        <figcaption>
+                            <h3> Site de location immobilière Kasa </h3>
+                            <button className="button-55" role="button" onClick={()=>window.open('https://kasa-367cc.web.app/', '_blank', 'noopener noreferrer')}>
+                                Visiter
+                            </button>
+                        </figcaption>
+                    </figure>
+                </div>
                 <div className="cardPortfolio_article">
                     <figure className='cardPortfolio_figure'>
                         <img src={nina} alt="Debuggage et Optimisation site nina carducci" />
@@ -23,10 +35,10 @@ export default function Works() {
                 </div>
                 <div className="cardPortfolio_article">
                     <figure className='cardPortfolio_figure'>
-                        <img src={kasa} alt="Site de location immobilière Kasa sous app REACT router" />
+                        <img src={sophie} alt="Création de site dynamique JavaScript" />
                         <figcaption>
-                            <h3> Site de location immobilière Kasa </h3>
-                            <button className="button-55" role="button" onClick={()=>window.open('https://kasa-367cc.web.app/', '_blank', 'noopener noreferrer')}>
+                            <h3> Création d'une page web dynamique </h3>
+                            <button className="button-55" role="button" onClick={()=>window.open('https://github.com/Naofalp/Sophie-Bluel-Portfolio', '_blank', 'noopener noreferrer')}>
                                 Visiter
                             </button>
                         </figcaption>
